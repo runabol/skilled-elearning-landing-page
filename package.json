@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "npx tailwindcss -i input.css -o public/style.css && cp index.html public/ && cp -R assets/ public/assets/",
+    "dev": "npx tailwindcss -i input.css -o style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

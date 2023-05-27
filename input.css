@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-image: 
+           url('images/bg-pattern-bottom.svg'),
+           url("images/bg-pattern-top.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: 
+           bottom -600px right -650px,
+           top -500px left -700px;
+    } 
+    @media (width > 600px ) {
+        body {
+            background-position: 
+               bottom -600px right -250px,
+               top -500px left -200px;
+        } 
+    }
+}
