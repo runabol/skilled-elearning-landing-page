@@ -4,7 +4,7 @@
 
 @layer base {
     @media (width > 767px) {
-        body {
+        .wrapper {
          background-image: 
             url('assets/image-hero-tablet.png');
          background-repeat: no-repeat;
@@ -14,7 +14,7 @@
         } 
     }
     @media (width > 1023px) {
-        body {
+        .wrapper {
          background-image: 
             url('assets/image-hero-desktop.png');
          background-repeat: no-repeat;
