@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    @media (width > 768px) {
+    @media (width > 767px) {
         body {
          background-image: 
             url('assets/image-hero-tablet.png');
@@ -13,7 +13,7 @@
             top -50px right -220px;
         } 
     }
-    @media (width > 1024px) {
+    @media (width > 1023px) {
         body {
          background-image: 
             url('assets/image-hero-desktop.png');
