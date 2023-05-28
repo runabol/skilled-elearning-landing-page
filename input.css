@@ -3,20 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        background-image: 
-           url('images/bg-pattern-bottom.svg'),
-           url("images/bg-pattern-top.svg");
-        background-repeat: no-repeat, no-repeat;
-        background-position: 
-           bottom -600px right -650px,
-           top -500px left -700px;
-    } 
-    @media (width > 600px ) {
+    @media (width > 768px) {
         body {
-            background-position: 
-               bottom -600px right -250px,
-               top -500px left -200px;
+         background-image: 
+            url('assets/image-hero-tablet.png');
+         background-repeat: no-repeat;
+         background-size: 500px;
+         background-position: 
+            top -50px right -220px;
         } 
     }
 }
